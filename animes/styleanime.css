@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right ,#141e30 , #243b55);
+}
+
+div{
+    overflow: auto;
+    margin: 1% 0 1% 0;
+    text-align: center;
+    
+}
+
+.frame{
+
+    height: 65vh;
+ 
+
+}
+
+.heading{
+    font-size: x-large;
+    background: -webkit-linear-gradient(0deg,red , orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links{
+
+}
+
+
+
+.parent{
+
+    
+    height: 100vh;
+
+
+}

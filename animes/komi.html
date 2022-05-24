@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOMI</title>
+    <link rel="stylesheet" href="styleanime.css">
+
+    <script type="text/javascript">
+        function newSrc() {
+         var e = document.getElementById("MySelectMenu");
+         var newSrc = e.options[e.selectedIndex].value;
+         document.getElementById("MyFrame").src=newSrc;
+        }
+       </script>
+
+</head>
+
+<body>
+<div class="parent">
+    
+
+    <div class="heading">
+        <h1>KOMI CAN'T COMMUNICATE</h1>
+
+    </div>
+
+    <div class="frame" >
+        <iframe src="https://www.youtube.com/embed/tLdLTSnmnoA"
+            
+                width="70%" height="90%" allow="autoplay" allowfullscreen id="MyFrame"></iframe>
+
+    </div>
+
+    <div class="links">
+
+        <select id="MySelectMenu" style="padding: 10px; background-image: linear-gradient(to right ,#ff512f , #dd2476); border:none; color: black;">
+            <option value="https://www.youtube.com/embed/tLdLTSnmnoA">TRAILER</option>
+            <option value="https://drive.google.com/file/d/1b5zOssUpmUtCHOQJEbBDI76UsFyZYt-y/preview">SEASON 1 EPISODE 1</option>
+            <option value="https://drive.google.com/file/d/1qdqUj3CHC_Iwbb_E_sPs1PrNKeFjpeqY/preview">SEASON 1 EPISODE 2</option>
+            <option value="https://drive.google.com/file/d/1dsEvQG-GsspMWv_exnbgvu1G9_JtZmQ4/preview">SEASON 1 EPISODE 3</option>
+            <option value="https://drive.google.com/file/d/1RfO7Ot16dGzFZDPHn0Imxi0khZbfuusT/preview">SEASON 1 EPISODE 4</option>
+            <option value="https://drive.google.com/file/d/16Kc5b2OL63suNh6V7W3wGDAw4Sek9R9Q/preview">SEASON 1 EPISODE 5</option>
+            <option value="https://drive.google.com/file/d/1hEwnsCVOI5G9Cu8yx3zGiRvZWxcIMrHc/preview">SEASON 1 EPISODE 6</option>
+            <option value="https://drive.google.com/file/d/132QyphPNRPJzgG3Odo0iTstAUhlpNpVP/preview">SEASON 1 EPISODE 7</option>
+            <option value="https://drive.google.com/file/d/1tn0M2F3nLyFItJqu6EQIoI7LFOyxTMCs/preview">SEASON 1 EPISODE 8</option>
+            <option value="https://drive.google.com/file/d/1Y2JNVpUj0os9IVtvZDpgV_0hQZRxj-Hg/preview">SEASON 1 EPISODE 9</option>
+            <option value="https://drive.google.com/file/d/1z757lQdFX4dJ-uCL67w5K0fge8EwunlG/preview">SEASON 1 EPISODE 10</option>
+            <option value="https://drive.google.com/file/d/1_l22Qt-40LwT31SlSZaofI6L0vCqTnY8/preview">SEASON 1 EPISODE 11</option>
+            <option value="https://drive.google.com/file/d/1PJbxY82WbD81JRSEh2xHwwRJmSb2lAbK/preview">SEASON 1 EPISODE 12</option>
+                </select>
+                <button onClick="newSrc();" style="padding: 10px; background-image: linear-gradient(to right ,#ff512f , #dd2476); border:none; color: black;">PLAY</button>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

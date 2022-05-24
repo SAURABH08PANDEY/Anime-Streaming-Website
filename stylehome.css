@@ -1,0 +1,117 @@
+body{
+    background-color: #ffffee;
+    text-align: center;
+
+}
+
+.posts{
+    /* border: 5px solid green; */
+    margin-top:100px;
+    width: 85vw;
+    display: inline-block;
+    padding: 2%;
+}
+
+.animeset{
+    border: 1px solid black;
+    background-image: linear-gradient(to right ,#ff512f , #dd2476);
+    margin-bottom: 20px;
+    padding: 1%;
+    text-align: center;
+    /* border: 5px solid red; */
+    overflow: auto;
+
+
+}
+
+span{
+    float: left;
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+    padding:0 2px 0 2px;
+    color: white;
+    margin:0 3px 0 3px
+}
+
+span a{
+    color: white;
+
+}
+
+span:hover{
+    background-color: yellowgreen;
+}
+
+
+.animeimage{
+    /* border: 5px solid blue; */
+    width: 20vw;
+    height: 45vh;
+    overflow: hidden;
+}
+
+.animedetails{
+    text-align: left;
+    padding-left: 2%;
+    /* border: 5px solid blue; */
+    width: 60vw;
+    height: 45vh;
+    overflow: auto;
+}
+
+img{
+    border: 1px solid black;
+    padding: 0;
+    width:19.5vw;
+    height: 44.5vh;
+}
+
+.content{
+    display: inline-block;
+}
+
+.club{
+    margin: 0;
+}
+
+.storyline{
+    border-left: 3px solid yellow;
+    padding-left: 2px;
+}
+
+.header{
+    overflow: auto;
+    position:fixed;
+    top:0;
+    width:100%;
+
+    background-color: #dd2476;
+    border: 1px solid black;
+    font-size: x-large;
+    /* padding: 0.3%; */
+    margin: 0 0 0px 0;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .animeset{
+    flex-direction:column;
+    }
+  .animeimage{
+    width:70vw;
+    height:60vh;
+    }
+    .animedetails{
+        width:70vw;
+        height:40vh;
+    }
+
+    img{
+        padding: 0;
+        width:70vw;
+        height:60vh;
+    }
+
+    
+  }
